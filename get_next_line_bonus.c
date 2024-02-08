@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gemartin <gemartin@student.42barc...>      +#+  +:+       +#+        */
+/*   By: albealva <albealva@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/02 12:42:12 by gemartin          #+#    #+#             */
-/*   Updated: 2022/03/02 14:36:32 by gemartin         ###   ########.fr       */
+/*   Created: 2024/02/04 12:09:30 by albealva          #+#    #+#             */
+/*   Updated: 2024/02/04 12:10:24 by albealva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
