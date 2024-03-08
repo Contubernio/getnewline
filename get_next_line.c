@@ -98,3 +98,30 @@ char	*get_next_line(int fd)
 	storage = clean_storage(storage);
 	return (line);
 }
+
+#include <stdio.h>
+#include <fcntl.h>
+#include "get_next_line.h"
+
+int main() {
+    int fd;
+    char *line;
+
+    // Abre el archivo "archivo.txt" para leer
+    fd = open("archivo.txt", O_RDONLY);
+    if (fd == -1) {
+        perror("Error al abrir el archivo");
+        return 1;
+    }
+
+    // Lee líneas del archivo e imprime cada una
+    while ((line = get_next_line(fd)) != NULL) {
+        printf("%s\n", line);
+        free(line); // Libera la memoria asignada por get_next_line
+    }
+
+    // Cierra el archivo
+    close(fd);
+
+    return 0;
+}
